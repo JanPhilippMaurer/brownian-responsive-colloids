@@ -1,0 +1,7 @@
+# Python version requirement
+# Python >= 3.12.7
+
+# Core dependencies
+numpy>=1.26.4
+numba>=0.60.0
+
