@@ -27,15 +27,17 @@ a variance of $2D_{\mathrm T}\Delta t$.
 
 ## Code Structure
 
-    sim-responsive-colloids/
-    ├─ simulation.py                # main(...) function
-    ├─ simulation_functions.py      # simulation for each timestep
-    ├─ brownian_dynamics.py         # time integration
-    ├─ force_calculation.py         # calculating distances and all forces
-    ├─ force_functions.py           # translation and property force functions
-    ├─ save_data_files.py           # save the simulation data
-    ├─ run_simulation.py            # run main(...) with test parameters
-    ├─ requirements.txt             # required Python packages
+    
+    brownian-responsive-colloids/
+    ├─ sim-code/
+        ├─ simulation.py                # main(...) function
+        ├─ simulation_functions.py      # simulation for each timestep
+        ├─ brownian_dynamics.py         # time integration
+        ├─ force_calculation.py         # calculating distances and all forces
+        ├─ force_functions.py           # translation and property force functions
+        ├─ save_data_files.py           # save the simulation data
+        ├─ run_simulation.py            # run main(...) with test parameters
+    ├─ requirements.txt                 # required Python packages
     └─ README.md
 
 
